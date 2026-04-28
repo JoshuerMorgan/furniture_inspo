@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./images/background-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Inter", sans-serif;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h3{
+    border-bottom: #fffdfd 1px solid;
+    padding-bottom: 0.5em;
+}
+#container{
+    width: 90%;
+    max-width: 350px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    padding: 2em;
+    margin: 100px auto;
+    background-color: rgba(75, 75, 75, 0.75);
+  
+    gap: 1em;
+}
+
+input{
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    background-color: #d9d9d9;
+}
+
+#signup{
+    font-size:small;
+}
+
+.orange-btn{
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    background-color: orange;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 0.5em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;    
+}
+
+#options div{
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: #fffdfd  1px solid;
+    padding-top: 0.5em;
+}
+
+#options p{
+    font-size: smaller;
+}
+#signup{
+    font-size: small;
+    /* padding: 0.25em; */
+    
+}
+
+
+#registered_account a{
+    padding: 0.25em;
+    width: 60px;
+    align-self: flex-end;
+    text-align: center;
+    /* border: yellowgreen 1px solid; */
+}
+
+#registered_account{
+    /* border: yellowgreen 1px solid; */
+    text-align: right;
+}
+
+#forgot_password a{
+   font-size: small;
+    padding: 0.25em;
+    width: 70px;
+
+}
+
