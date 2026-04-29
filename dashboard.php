@@ -161,6 +161,7 @@ $conn->close();
             <li><a href="homepage.php">HOME</a></li>
             <li><a href="blog.php">BLOG</a></li>
             <li><a href="about.php">ABOUT US</a></li>
+            <li><a href="favorites.php">FAVORITES</a></li>
             <li><a href="dashboard.php">DASHBOARD</a></li>
         </ul>
     </nav>

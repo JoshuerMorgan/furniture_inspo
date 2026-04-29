@@ -19,6 +19,7 @@
             <li><a href="homepage.php">HOME</a></li>
             <li><a href="blog.php">BLOG</a></li>
             <li><a href="about.php">ABOUT US</a></li>
+            <li><a href="favorites.php">FAVORITES</a></li>
             <?php if (isset($_SESSION['role']) && $_SESSION['role'] === 'admin'): ?>
                 <li><a href="dashboard.php">DASHBOARD</a></li>
             <?php endif; ?>

@@ -1,0 +1,52 @@
+#favorites-header {
+    padding: 2em 2.5em 0.5em;
+    background-color: #CCBDA3;
+    color: #595353;
+}
+
+#favorites-header h2 { font-size: 1.8em; }
+#favorites-header p  { font-size: 0.95em; margin-top: 0.25em; opacity: 0.75; }
+
+.board-section {
+    background-color: #CCBDA3;
+    padding: 1em 2.5em 3em;
+}
+
+.board-title {
+    font-size: 1.2em;
+    color: #595353;
+    margin-bottom: 1em;
+    border-bottom: 2px solid #e99633;
+    padding-bottom: 0.4em;
+}
+
+.board-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: flex-start;
+}
+
+.fav-btn {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 7px;
+    border: none;
+    background-color: #e99633;
+    color: white;
+    font-size: 0.95em;
+    cursor: pointer;
+    margin-top: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4em;
+}
+
+.fav-btn svg { width: 1em; height: 1em; }
+
+.empty-board {
+    color: #595353;
+    padding: 2em 0;
+    font-size: 1.1em;
+}
