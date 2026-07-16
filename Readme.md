@@ -1,7 +1,7 @@
 # Oak & Wool — Furniture Inspiration Web App
 
 **Project by:** Joshua Akeredolu
-**Course:** COSC 459 — Dr. Mack
+
 
 ---
 
